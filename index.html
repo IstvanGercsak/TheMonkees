@@ -9,46 +9,50 @@
     <title>Main Page</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet"
+          type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           type="text/css">
 </head>
 <body>
-
-<header class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 logo">
-
-        </div>
-        <div class="col-md-6">
-            <nav id="nav">
-                <ul class="list-inline clearfix">
-                    <li><a href="#"><span>Home</span></a></li>
-                    <li><a href="#"><span>Tour Info</span></a></li>
+<div class="main-container">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 nav-container">
+                <ul id="nav" class="list-inline clearfix menu">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="tourinfo.html"><span>Tour Info</span></a></li>
                     <li><a href="#"><span>Band</span></a></li>
                     <li><a href="#"><span>Music</span></a></li>
                     <li><a href="#"><span>Videos</span></a></li>
                     <li><a href="#"><span>News</span></a></li>
                     <li><a href="#"><span>Contact</span></a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<section>
-    <p>
-        asdasd
-    </p>
-</section>
+    <aside style="position: fixed; top: 35%; right: 0;">
+        <ul style="display: inline-block;">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </aside>
 
-
-<footer class="container-fluid">
-    <div class="row">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <p class="creator-footer">
+                Created by Istvan Gercsak - first milestone project
+            </p>
+            <!--<ul class="list-inline">-->
+            <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+            <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+            <!--<li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+            <!--</ul>-->
+        </div>
+    </footer>
+</div>
 
 </body>
 </html>
@@ -95,3 +99,8 @@ Footer:
         https://www.instagram.com/themonkees/
 
     The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
+
+
+Qùestion:
+Body vs main container:
+    What is the difference?

@@ -1,12 +1,62 @@
-section {
-    background-color: #CD0F38;
+@import url('https://fonts.googleapis.com/css?family=Bonbon|Dancing+Script:400,700|Pacifico|Sedgwick+Ave+Display|Special+Elite|ZCOOL+KuaiLe');
+
+.main-container {
+    background: url("../images/background.jpg") center / cover no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-.logo {
-    background: url("../images/monkeesHeader.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 150px;
+.nav-container {
+    padding: 0 !important;
+    background-color: rgba(122, 52, 56, 0.8);
+
+}
+
+.menu {
+    margin: 0 !important;
+    text-align: center;
+}
+
+#nav li {
+    height: 100px;
+    padding: 30px 30px;
+
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #FAFAE6;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+}
+
+aside i {
+    color: #172349;
+    border: 4px solid;
+    border-radius: 25%;
+    padding: 1px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(122, 52, 56, 0.8);
+}
+
+.creator-footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0;
+    font-family: "Pacifico", cursive;
 }
 
 /* Unused class only for the template of colors */

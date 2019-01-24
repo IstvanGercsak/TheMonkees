@@ -18,25 +18,71 @@
 <div class="main-container">
     <header class="container-fluid">
         <div class="row">
-            <div class="col-md-12 nav-container">
+            <div class="col-md-12 col-md-12 col-md-12 col-md-12 nav-container">
                 <ul id="nav" class="list-inline clearfix menu">
-                    <li><a href="index.html"><span>Home</span></a></li>
-                    <li><a href="tourinfo.html"><span>Tour Info</span></a></li>
+                    <li><a href="#"><span>Home</span></a></li>
+                    <li><a href="#"><span>Tour Info</span></a></li>
                     <li><a href="#"><span>Band</span></a></li>
                     <li><a href="#"><span>Music</span></a></li>
                     <li><a href="#"><span>Videos</span></a></li>
-                    <li><a href="#"><span>News</span></a></li>
                     <li><a href="#"><span>Contact</span></a></li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <aside style="position: fixed; top: 35%; right: 0;">
-        <ul style="display: inline-block;">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+    <section class="hamburgernav">
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox"/>
+
+                <!--
+                Some spans to act as a hamburger.
+
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://erikterwan.com/" target="_blank">
+                        <li>Show me more</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <aside>
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
         </ul>
     </aside>
 

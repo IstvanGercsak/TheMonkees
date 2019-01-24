@@ -184,7 +184,7 @@ a:hover {
 #nav li a {
     text-decoration: none;
     color: #FAFAE6;
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Special Elite', cursive;
 }
 
@@ -249,7 +249,7 @@ footer {
 
 @media (max-width: 1200px) {
     #nav li {
-        height: 70px;
+        height: 90px;
         padding: 25px 25px;
     }
 

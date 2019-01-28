@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bonbon|Dancing+Script:400,700|Pacifico|Sedgwick+Ave+Display|Special+Elite|ZCOOL+KuaiLe');
 
-.main-container {
+body {
     background: url("../images/background.jpg") center / cover no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
 .nav-container {
     padding: 0 !important;
     background-color: rgba(122, 52, 56, 0.8);
-
 }
 
 .menu {
@@ -19,44 +15,87 @@
 }
 
 #nav li {
-    height: 100px;
-    padding: 30px 30px;
-
+    height: 70px;
+    padding: 20px 40px;
 }
 
 #nav li a {
     text-decoration: none;
     color: #FAFAE6;
-    font-size: 2em;
+    font-size: 30px;
     font-family: 'Special Elite', cursive;
+    margin: 0;
+    padding: 0;
 }
 
-aside {
-    position: fixed;
-    top: 35%;
-    right: 0;
+#nav li a span {
+    margin: 0;
+    padding: 0;
 }
 
-aside ul {
+/*
+###########################
+######### FOOTER #########
+###########################
+*/
+
+footer {
+    left: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.creator-footer {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: "Sedgwick", cursive;
+    font-weight: 700;
+}
+
+footer div {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+}
+
+.footer-color{
+    background-color: #3B4C6D;
+}
+/*
+###############################
+######### SOCIAL LINK #########
+###############################
+*/
+
+footer ul {
     display: inline-block;
     list-style: none;
 }
 
-aside i {
-    font-size: 44px;
+footer i {
     border: 3px solid;
     border-radius: 25%;
-    padding-left: 5px;
-    padding-top: 1px;
+    padding-top: 2px;
     width: 50px;
     height: 50px;
-    margin: 10px 20px;
     transition: all 0.5s ease-in-out;
 }
 
-aside .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
+footer li {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     transition: all 0.4s ease-in-out;
     border-radius: 0;
+}
+
+.list-inline {
+    margin: 0;
 }
 
 .twittercolor {
@@ -74,137 +113,80 @@ aside .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     background-color: #fff;
 }
 
-footer {
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    background-color: rgba(122, 52, 56, 0.8);
+/*
+###########################
+######## BAND SITE ########
+###########################
+*/
+
+img {
+    width: 150px;
+    height: 150px;
+    opacity: 0.9;
+    border-radius: 50%;
 }
 
-.creator-footer {
-    text-align: center;
-    font-size: 16px;
-    padding: 8px;
-    margin: 0;
-    font-family: "Pacifico", cursive;
+.member-one img {
+    float: right;
+}
+
+.member-two img {
+    float: left;
+}
+
+.member-three img {
+    float: right;
+}
+
+.member-four img {
+    float: left;
+
+}
+
+.table-position {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.table-font {
+    font-family: "Special Elite", cursive;
+    font-size: 25px;
+
 }
 
 @media (max-width: 1200px) {
     #nav li {
-        height: 90px;
-        padding: 25px 25px;
-    }
-
-    #nav li a {
-        font-size: 24px;
+        height: 65px;
+        padding: 15px 29px;
     }
 }
 
 @media (max-width: 992px) {
+
+    .creator-footer {
+        margin-top: 2px;
+    }
+
+    #nav li {
+        height: 65px;
+        padding: 15px 23px;
+    }
+
     #nav li a {
-        font-size: 23px;
-    }
-}
-
-@media (max-width: 781px) {
-    #nav li a {
-        font-size: 19px;
+        font-size: 1.4em;
     }
 
-    .hamburgernav {
-        visibility: visible;
+    footer {
+        height: 52px;
     }
 
-}
-
-/* Band site */
-
-.col-centered {
-
-    margin: 0 auto;
-}
-
-/*.member-container {*/
-/*position: relative;*/
-/*float: none;*/
-/*border: #172349 1px solid;*/
-/*width: 70%;*/
-/*margin: 0 auto;*/
-/*height: 210px;*/
-/*}*/
-.row-centered {
-    text-align: center;
-}
-
-.col-centered {
-    display: inline-block;
-    float: none;
-    text-align: center;
-    margin-right:-4px;
-}
-
-.quad {
-    height: 200px;
-}
-
-.member1 {
-    background: url("../images/dj.jpg") center / cover no-repeat;
-    /*transform: rotate(-45deg);*/
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-
-.member1:hover, .member2:hover, .member3:hover, .member4:hover {
-    cursor: pointer;
-    transition: all 0.9s ease-in-out;
-    transform: scale(1.2);
-}
-
-.member1:hover p {
-    transition: all 0.9s ease-in-out;
-    visibility: visible;
-}
-
-.member2 {
-    background: url("../images/md.jpg") center / cover no-repeat;
-    /*transform: rotate(-45deg);*/
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-
-.member3 {
-    background: url("../images/mn.jpg") center / cover no-repeat;
-    /*transform: rotate(-45deg);*/
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-
-}
-
-.member4 {
-    background: url("../images/pt.jpg") center / cover no-repeat;
-    /*transform: rotate(-45deg);*/
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-
-.about-left {
-    /*position: absolute;*/
-    /*width: 500px;*/
-    /*margin-top: -80px;*/
-    /*margin-left: -400px;*/
-    visibility: hidden;
-    /*background-color: #AA865B;*/
-    /*border-radius: 50px 25px;*/
-    /*opacity: 0.8;*/
-    /*padding: 5px;*/
-    /*transition: all 0.9s ease-in-out;*/
+    footer li {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* Unused class only for the template of colors */
-
 .colors {
     color: #CD0F38;
     color: #3A89A4;
@@ -213,13 +195,9 @@ footer {
 }
 
 .colors2 {
-
     color: #3B4C6D;
     color: #995F50;
     color: #AA865B;
     color: #7A8062;
     color: #7A3438;
 }
-
-/* Hamburger menu */
-

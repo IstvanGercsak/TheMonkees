@@ -35,6 +35,27 @@ body {
 
 /*
 ###########################
+##### WELCOME PAGE ########
+###########################
+*/
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.welcome img, .welcome h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.welcome h1 {
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+/*
+###########################
 ######### FOOTER #########
 ###########################
 */
@@ -61,9 +82,10 @@ footer div {
     height: inherit;
 }
 
-.footer-color{
+.footer-color {
     background-color: #3B4C6D;
 }
+
 /*
 ###############################
 ######### SOCIAL LINK #########
@@ -119,40 +141,47 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 ###########################
 */
 
-img {
-    width: 150px;
-    height: 150px;
+.band-member-position {
+    margin-top: 2%;
     opacity: 0.9;
-    border-radius: 50%;
+    border-radius: 20px;
+    border: 5px;
 }
 
-.member-one img {
-    float: right;
+.band-member {
+    margin: 0 !important;
 }
 
-.member-two img {
+.band-member .row {
+    margin: 0 !important;
+}
+
+.band-member img {
     float: left;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 
-.member-three img {
-    float: right;
+.band-member p {
+    clear: left;
+    font-size: 18px;
+    color: #fafafa;
+    background-color: #AA865B;
+    border: #172349 10px solid;
+    border-radius: 30px;
 }
 
-.member-four img {
-    float: left;
-
+.band-member h2 {
+    color: black;
 }
 
-.table-position {
-    margin-top: 5%;
-    margin-bottom: 5%;
+.band-member {
+    clear: left;
+    font-size: 20px;
+    color: #fafafa;
 }
 
-.table-font {
-    font-family: "Special Elite", cursive;
-    font-size: 25px;
-
-}
+/* Responsive header and footer */
 
 @media (max-width: 1200px) {
     #nav li {
@@ -164,7 +193,8 @@ img {
 @media (max-width: 992px) {
 
     .creator-footer {
-        margin-top: 2px;
+        padding-top: 12px;
+        font-size: 20px;
     }
 
     #nav li {
@@ -177,12 +207,44 @@ img {
     }
 
     footer {
-        height: 52px;
+        height: 60px;
     }
 
     footer li {
         padding: 0;
         margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .creator-footer {
+        margin-top: 0;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+}
+
+/* Responsive Welcome site */
+
+@media (max-width: 1200px) {
+    .welcome h1 {
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcome h1 {
+        letter-spacing: 5px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome h1 {
+        letter-spacing: 5px;
+        font-size: 40px;
     }
 }
 

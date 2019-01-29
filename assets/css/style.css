@@ -4,6 +4,8 @@ body {
     background: url("../images/background.jpg") center / cover no-repeat;
 }
 
+/* NAVIGATION */
+
 .nav-container {
     padding: 0 !important;
     background-color: rgba(122, 52, 56, 0.8);
@@ -33,32 +35,7 @@ body {
     padding: 0;
 }
 
-/*
-###########################
-##### WELCOME PAGE ########
-###########################
-*/
-
-.no-padding {
-    padding: 0 !important;
-}
-
-.welcome img, .welcome h1 {
-    width: 100%;
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-}
-
-.welcome h1 {
-    letter-spacing: 5px;
-    font-size: 60px;
-}
-
-/*
-###########################
-######### FOOTER #########
-###########################
-*/
+/* FOOTER */
 
 footer {
     left: 0;
@@ -86,11 +63,7 @@ footer div {
     background-color: #3B4C6D;
 }
 
-/*
-###############################
-######### SOCIAL LINK #########
-###############################
-*/
+/* SOCIAL LINK */
 
 footer ul {
     display: inline-block;
@@ -134,6 +107,33 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     color: #ff0000;
     background-color: #fff;
 }
+
+/*
+###########################
+##### WELCOME PAGE ########
+###########################
+*/
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.welcome img, .welcome h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.welcome h1 {
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+/*
+###########################
+##### TOUR INFO SITE ######
+###########################
+*/
 
 /*
 ###########################
@@ -183,6 +183,48 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     clear: left;
     font-size: 20px;
     color: #fafafa;
+}
+
+/*
+###########################
+####### MEDIA SITE ########
+###########################
+*/
+.media-container h3 {
+    width: 80%;
+    text-align: center;
+    margin: 3% auto;
+}
+
+.media-container {
+    margin-top: 2%;
+}
+
+.audio-container {
+    margin: 2% 0;
+}
+
+.image-container {
+    width: 300px;
+    margin: 0 auto
+}
+
+.music-container {
+    width: 300px;
+    margin: 0 auto
+}
+
+.audio-container img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 0 auto;
 }
 
 /*

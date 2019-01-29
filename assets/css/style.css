@@ -227,6 +227,10 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     margin: 0 auto;
 }
 
+video {
+    width: 700px;
+}
+
 /*
 ###########################
 ###### CONTACT SITE #######
@@ -355,6 +359,16 @@ button[type="submit"]:hover {
     .contact-container h4 {
         width: 100%;
     }
+}
+
+/* Responsive Media site */
+
+@media (max-width: 420px) {
+
+    video {
+        width: 300px;
+    }
+
 }
 
 /* Unused class only for the template of colors */

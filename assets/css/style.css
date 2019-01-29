@@ -167,18 +167,60 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     font-size: 18px;
     color: #fafafa;
     background-color: #AA865B;
-    border: #172349 10px solid;
-    border-radius: 30px;
+    border: #172349 4px solid;
+    border-radius: 27px 27px 10px 10px;
 }
 
 .band-member h2 {
     color: black;
 }
 
+.band-member p, .band-member h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
 .band-member {
     clear: left;
     font-size: 20px;
     color: #fafafa;
+}
+
+/*
+###########################
+###### CONTACT SITE #######
+###########################
+*/
+
+.contact-container h2, .contact-container h3, .contact-container h4 {
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin: 4% auto;
+    width: 70%;
+    color: #CD0F38;
+}
+
+.contact-container input {
+    margin: 2% 0;
+}
+
+.form-position {
+    margin: 5% auto;
+    max-width: 60%;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3B4C6D;
+    border: transparent;
+    color: #fafafa;
+    transition: all 1.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #7A8062;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 1.2s ease-in-out;
 }
 
 /* Responsive header and footer */
@@ -245,6 +287,31 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     .welcome h1 {
         letter-spacing: 5px;
         font-size: 40px;
+    }
+}
+
+/* Responsive Band site */
+
+@media (max-width: 420px) {
+
+    .band-member img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .band-member p {
+        padding: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+/* Responsive Contact site */
+
+@media (max-width: 992px) {
+
+    .contact-container h4 {
+        width: 100%;
     }
 }
 

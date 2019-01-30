@@ -139,6 +139,10 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     margin-bottom: 30px;
 }
 
+.rows .row {
+    margin: 0 !important;
+}
+
 .timeline-item {
     padding: 4em 0 0 2em;
     position: relative;
@@ -181,8 +185,23 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     position: absolute;
     left: 50%;
     /*padding: 3px 30px 2px 10px;*/
-    color: #fafafa;
+    color: black;
     /*background-color: rgba(25, 25, 25, 0.2);*/
+}
+
+.hidden-circle-container {
+    width: 40px;
+    height: 40px;
+    background-color: #172349;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.hidden-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #172349;
+    border-radius: 50%;
 }
 
 /*
@@ -383,6 +402,18 @@ button[type="submit"]:hover {
     .welcome h1 {
         letter-spacing: 5px;
         font-size: 40px;
+    }
+}
+
+/* Responsive Tour Info site */
+
+@media (max-width: 768px) {
+    .hidden-circle-container {
+        visibility: visible;
+    }
+
+    .progress {
+        visibility: hidden;
     }
 }
 

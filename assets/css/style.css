@@ -201,17 +201,17 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 }
 
 .audio-container {
-    margin: 2% 0;
+    margin: 2% auto;
 }
 
 .image-container {
     width: 300px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .music-container {
     width: 300px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .audio-container img {
@@ -369,7 +369,11 @@ button[type="submit"]:hover {
         width: 300px;
     }
 
+    .audio-container {
+        padding: 0;
+    }
 }
+
 
 /* Unused class only for the template of colors */
 .colors {

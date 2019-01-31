@@ -203,7 +203,6 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     padding-top: 27px;
 }
 
-
 /*
 ###########################
 ######## BAND SITE ########
@@ -402,6 +401,15 @@ button[type="submit"]:hover {
     .welcome h1 {
         letter-spacing: 5px;
         font-size: 40px;
+    }
+}
+
+/**/
+
+@media (max-width: 768px) {
+
+    .button-position {
+        padding: 0 !important;
     }
 }
 

@@ -409,7 +409,7 @@ button[type="submit"]:hover {
 @media (max-width: 768px) {
 
     .button-position {
-        padding: 0 !important;
+        padding-left: 0 !important;
     }
 }
 

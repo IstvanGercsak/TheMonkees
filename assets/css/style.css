@@ -431,6 +431,9 @@ button[type="submit"]:hover {
     /*.progress {*/
     /*visibility: hidden;*/
     /*}*/
+     .progress-position{
+        visibility: hidden;
+    }
 }
 
 /* Responsive Band site */
@@ -447,6 +450,8 @@ button[type="submit"]:hover {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
+
+
 }
 
 /* Responsive Contact site */

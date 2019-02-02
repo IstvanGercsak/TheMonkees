@@ -154,7 +154,7 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 }
 
 .timeline-item {
-    padding: 4em 0 0 2em;
+    padding: 64px 0 0 32px;
     position: relative;
     color: black;
     border-left: 1px solid;
@@ -164,10 +164,10 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 .timeline-item::before {
     content: attr(dates);
     position: absolute;
-    left: 2.5em;
-    top: 3em;
+    left: 35px;
+    top: 40px;
     display: block;
-    font-size: .8em;
+    font-size: 15px;
     padding: 0;
     margin: 0;
 }
@@ -176,7 +176,7 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 38px;
     position: absolute;
     left: -6px;
     border-radius: 12px;
@@ -226,7 +226,7 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 
 .band-member img {
     float: left;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     margin-right: 10px;
 }
 
@@ -429,6 +429,7 @@ button[type="submit"]:hover {
 
     .band-member img {
         width: 100%;
+        border-radius: 20px 20px 0 0;
         margin: 0;
     }
 

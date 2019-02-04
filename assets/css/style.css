@@ -282,6 +282,10 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
     margin: 2% auto;
 }
 
+.audio-container h3{
+    text-align: center;
+}
+
 .image-container {
     width: 300px;
     margin: 0 auto;

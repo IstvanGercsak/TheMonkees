@@ -7,13 +7,10 @@ On the page we can find information about the band members, about the tour(where
  
 ## UX
  
-This website prepared for the fans of the Band and also those people who would like to get familiar with the Band music and schedule.
- 
-The Website is very colorful I use those kinds of colors that are simple and dominant in the Band life and those years where they were young in the 70's. 
- 
-I used the font awesome for the social link icons.
-
-The two dominant font family is "Special Elite" and "ZCOOL KuaiLe".
+- This website prepared for the fans of the Band and also those people who would like to get familiar with the Band music and schedule.
+- The Website is very colorful I use those kinds of colors that are simple and dominant in the Band life and those years where they were young in the 70's. 
+- I used the font awesome for the social link icons.
+- The two dominant font family is "Special Elite" and "ZCOOL KuaiLe". I imported those through the .css style file.
 
 ## Features
 
@@ -51,10 +48,15 @@ Because of the technology restriction(HTML and CSS), you only can navigate betwe
 
 ## Testing
 
+Thanks to the GitHub Pages option everybody can reach my website through the below link: 
+https://istvangercsak.github.io/TheMonkees/
+
+I prefer this, instead of the Cloud9 because it is up and available 24/7.
+
 Browsers:
  - Chrome
  - Mozilla Firefox
- - Edge
+ - Microsoft Edge
  
 Testing Tools:
  - PC with HD resolution and responsiveness
@@ -68,11 +70,9 @@ Testing people:
 
 ## Deployment
 
-I use local IDE for create the project called PyCharm. There is a built in deployment tools, so after I created a GitHub repository.
+I use local IDE for create the project called PyCharm. There is a built in deployment tools so after I created a GitHub repository.
 
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+After every small piece I made commit to my local Git repository. After that on the end of the bigger section or the end of the day I pushed my modification to my GitHub repository. 
 
 
 ### Content

@@ -1,40 +1,53 @@
-# TheMonkees
+# The Monkees - Official Website
 
-One or two paragraphs providing an overview of your project.
+This site made as my first Milestone project at Code Institue. The main goal was to create a responsive, user centric frontend website using the HTML5 and CSS3 technology.
+On the website the user can navigate between the pages easily and they can use the website on every device as well thanks for the responsive design and implementation.
 
-Essentially, this part is your sales pitch.
+On the page we can find information about the band members, about the tour(where, when and how many ticket is available). We can listen some sample song and watch video clips on the Media site. We can send request for the band if We would like to invite them for a party. 
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website prepared for the fans of the Band and also those people who would like to get familiar with the Band music and schedule.
+ 
+The Website is very colorful I use those kinds of colors that are simple and dominant in the Band life and those years where they were young in the 70's. 
+ 
+I used the font awesome for the social link icons.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The two dominant font family is "Special Elite" and "ZCOOL KuaiLe".
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Because of the technology restriction(HTML and CSS), you only can navigate between the pages and you can reach the outer social sites.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Social outer links
+    - You can reach the social sites on new page from every page
+        - Facebook
+        - Twitter
+        - YouTube  
+- Buy tickets
+    - Inactive "Buy ticket" button if the ticket are sold
+- Send Request
+    - Required fields, restricted format when you fills and you want to send it 
+- Responsivity
+    - Every page are responsive and looks good on the below resolution
+        - Phones Less than 768px
+        - Tablets 768px and Up
+        - Desktops 992ox and Up
+        - Large Desktops 1200px and Up
 
 ### Features Left to Implement
-- Another feature idea
+- The "Buy Ticket" and "Send Request" function need Javascript and jQuery technology.
+- Moving progressbar - For this I should use Javascript
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [HTML5](https://www.w3.org/html/)
+    - Hypertext Markup Language is the standard markup language for creating web pages and web applications
+- [CSS3](https://www.w3.org/Style/CSS/)
+    - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML
+- [BootStrap 3.3.7](https://getbootstrap.com/docs/3.3/)
+    - Front End Framework for developing responsive websites 
 
 ## Testing
 
@@ -58,6 +71,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+I use local IDE for create the project called PyCharm. There is a built in deployment tools, so after I created a GitHub repository.
+
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -69,14 +86,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 #####The text for the Band members was copied from:
-- [Wikipedia article about Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork)
-- [Wikipedia article about Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz)
-- [Wikipedia article about Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith)
-- [Wikipedia article about Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+- About Peter Tork:
+    - [Wikipedia article](https://en.wikipedia.org/wiki/Peter_Tork)
+- About Micky Dolenz:
+    - [Wikipedia article](https://en.wikipedia.org/wiki/Micky_Dolenz)
+- About Michael Nesmith:
+    - [Wikipedia article](https://en.wikipedia.org/wiki/Michael_Nesmith)
+-  About Davy Jones:
+    - [Wikipedia article](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 
 ### Media
-- The photos and video used in this site were obtained from the CodeInstitute repository: [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets)
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+- The photos and video used in this site were obtained from the CodeInstitute repository: 
+    - [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets)

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bonbon|Dancing+Script:400,700|Pacifico|Sedgwick+Ave+Display|Special+Elite|ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|ZCOOL+KuaiLe');
 
 body {
     background: url("../images/background.jpg") center / cover no-repeat;
@@ -53,7 +53,7 @@ footer {
     text-align: center;
     font-size: 24px;
     margin: 20px 0;
-    font-family: "Sedgwick", cursive;
+    font-family: "ZCOOL KuaiLe", cursive;
     font-weight: 700;
 }
 

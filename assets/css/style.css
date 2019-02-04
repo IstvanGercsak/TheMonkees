@@ -482,7 +482,11 @@ button[type="submit"]:hover {
 @media (max-width: 420px) {
 
     video {
-        width: 300px;
+        width: 280px;
+    }
+
+    .video-container {
+        padding: 0 !important;
     }
 
     .audio-container {

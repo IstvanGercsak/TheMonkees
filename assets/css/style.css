@@ -294,6 +294,7 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 .music-container {
     width: 300px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .audio-container img {

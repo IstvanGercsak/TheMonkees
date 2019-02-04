@@ -3,7 +3,7 @@
 This site made as my first Milestone project at Code Institue. The main goal was to create a responsive, user centric frontend website using the HTML5 and CSS3 technology.
 On the website the user can navigate between the pages easily and they can use the website on every device as well thanks for the responsive design and implementation.
 
-On the page we can find information about the band members, about the tour(where, when and how many ticket is available). We can listen some sample song and watch video clips on the Media site. We can send request for the band if We would like to invite them for a party. 
+On the page we can find information about the band members about the tour(where, when and how many ticket is available). We can listen some sample song and watch video clips on the Media site. We can send request for the band if We would like to invite them for a party. 
  
 ## UX
  
@@ -14,7 +14,7 @@ On the page we can find information about the band members, about the tour(where
 
 ## Features
 
-Because of the technology restriction(HTML and CSS), you only can navigate between the pages and you can reach the outer social sites.
+Because of the technology restriction(HTML and CSS) you only can navigate between the pages and you can reach the outer social sites.
  
 ### Existing Features
 - Social outer links
@@ -51,7 +51,7 @@ Because of the technology restriction(HTML and CSS), you only can navigate betwe
 Thanks to the GitHub Pages option everybody can reach my website through the below link: 
 https://istvangercsak.github.io/TheMonkees/
 
-I prefer this, instead of the Cloud9 because it is up and available 24/7.
+I prefer the GitHub Pages option instead of the Cloud9 because it is up and available 24/7.
 
 Browsers:
  - Chrome
@@ -60,7 +60,7 @@ Browsers:
  
 Testing Tools:
  - PC with HD resolution and responsiveness
- - Mobile Phone 
+ - Mobile Phone: 
     - Iphone SE
     - OnePlus 6T
     
@@ -87,5 +87,5 @@ After every small piece I made commit to my local Git repository. After that on 
     - [Wikipedia article](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 
 ### Media
-- The photos and video used in this site were obtained from the CodeInstitute repository: 
+- The photos and video used in this site were obtained from the Code Institute repository: 
     - [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets)

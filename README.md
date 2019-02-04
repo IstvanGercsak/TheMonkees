@@ -67,14 +67,15 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-
-## Credits
-
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+#####The text for the Band members was copied from:
+- [Wikipedia article about Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork)
+- [Wikipedia article about Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz)
+- [Wikipedia article about Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith)
+- [Wikipedia article about Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos and video used in this site were obtained from the CodeInstitute repository: [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets)
 
 ### Acknowledgements
 

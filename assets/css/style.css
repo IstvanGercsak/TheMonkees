@@ -88,7 +88,7 @@ footer li {
     margin-bottom: 11px;
 }
 
-footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
+footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-spotify:hover {
     transition: all 0.4s ease-in-out;
     border-radius: 0;
 }
@@ -110,6 +110,11 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
 .youtubecolor {
     color: #ff0000;
     background-color: #fff;
+}
+
+.spotify-color {
+    color: #10bc4c;
+    background: #fff;
 }
 
 /*

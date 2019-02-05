@@ -85,6 +85,8 @@ After every small piece I made commit to my local Git repository. After that on 
     - [Wikipedia article](https://en.wikipedia.org/wiki/Michael_Nesmith)
 -  About Davy Jones:
     - [Wikipedia article](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+- Favicon:
+    [Official The Monkees Website](https://www.monkees.com/sites/default/files/favicon_1.ico)
 
 ### Media
 - The photos and video used in this site were obtained from the Code Institute repository: 

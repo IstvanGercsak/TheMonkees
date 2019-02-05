@@ -97,17 +97,17 @@ footer .fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-spotify:hov
     margin: 0;
 }
 
-.twittercolor {
+.twitter-color {
     color: #1da1f2;
     background-color: #fff;
 }
 
-.facebookcolor {
+.facebook-color {
     color: #4867aa;
     background-color: #fff;
 }
 
-.youtubecolor {
+.youtube-color {
     color: #ff0000;
     background-color: #fff;
 }

@@ -21,7 +21,8 @@ Because of the technology restriction(HTML and CSS) you only can navigate betwee
     - You can reach the social sites on new page from every page
         - Facebook
         - Twitter
-        - YouTube  
+        - YouTube
+        - Spotify  
 - Buy tickets
     - Inactive "Buy ticket" button if the ticket are sold
 - Send Request

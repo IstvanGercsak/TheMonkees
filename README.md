@@ -5,14 +5,23 @@ On the website the user can navigate between the pages easily and they can use t
 
 On the page we can find information about the band members about the tour(where, when and how many ticket is available). We can listen some sample song and watch video clips on the Media site. We can send request for the band if We would like to invite them for a party. 
  
+## Mockups
+
+
+
+## User Stories
+
+
+
 ## UX
  
 - This website prepared for the fans of the Band and also those people who would like to get familiar with the Band music and schedule.
 - The Website is very colorful I use those kinds of colors that are simple and dominant in the Band life and those years where they were young in the 70's. 
 - I used the font awesome for the social link icons.
 - The two dominant font family is "Special Elite" and "ZCOOL KuaiLe". I imported those through the .css style file.
+- 
 
-## Features
+## Features 
 
 Because of the technology restriction(HTML and CSS) you only can navigate between the pages and you can reach the outer social sites.
  
@@ -47,7 +56,7 @@ Because of the technology restriction(HTML and CSS) you only can navigate betwee
 - [BootStrap 3.3.7](https://getbootstrap.com/docs/3.3/)
     - Front End Framework for developing responsive websites 
 
-## Testing
+## Testing (Expand: How I test it, Responsive, Dev Tools, No console error)
 
 Thanks to the GitHub Pages option everybody can reach my website through the below link: 
 https://istvangercsak.github.io/TheMonkees/
@@ -69,7 +78,7 @@ Testing people:
 - Acquaintance, Friends
 - Smoke tests on PC and Mobile
 
-## Deployment
+## Deployment (How I start to deploy, what was the content of every increment and commit)
 
 I use local IDE for create the project called PyCharm. There is a built in deployment tools so after I created a GitHub repository.
 

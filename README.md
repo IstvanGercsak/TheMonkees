@@ -22,6 +22,8 @@ we have opportunity:
  
 ## Mockups
 
+**Created with Balsamiq Mockups 3**
+
 - **Home page**:
 
 ![Home page](Mockups/index.png)

@@ -7,7 +7,7 @@ On the page we can find information about the band members about the tour(where,
  
 ## Mockups
 
-![Home page](Mockups/Home Page.png)
+![Home page](Mockups/Home_Page.png)
 
 ## User Stories
 

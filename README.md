@@ -10,7 +10,7 @@ On the page we can find information about the band members about the tour(where,
 - Home page:
 ![Home page](Mockups/index.png)
 - Tour Info page:
-![Tour Info](Mockups/.png)
+![Tour Info](Mockups/tourinfo.png)
 - Band page:
 ![Band page](Mockups/.png)
 - Media page:

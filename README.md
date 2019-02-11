@@ -2,15 +2,23 @@
 
 ## About the Project:
 
-This website made as my first Milestone project at Code Institue. The main goal was to create a responsive, user centric 
-frontend website using the HTML5 and CSS3 technology.
+This website made as my first Milestone project at [Code Institute](https://codeinstitute.net/). 
+The main goal was to create a responsive, user centric frontend website using the HTML5 and CSS3 technology.
 On the website the user can navigate between the pages easily and they can use the website on every device as well thanks 
 for the responsive design and implementation.
 
-On the page we can find information about the band members, about the tour(where and when will be the next concerts. 
-How many ticket is available). 
-We can listen some sample song and watch video clips on the Media page. We can send request for the band if We would 
-like to invite them for a party.
+- Throughout this project I had to create a website for a band called The Monkees. As the website is a static (front-end only) website
+we have opportunity:
+    - Get information about their tour:
+        - Where will be the next concerts 
+        - When will be the next concerts 
+        - How many ticket is available 
+    - Find information about the band members
+    - Listen some sample song and watch video clips from the band
+    - Send request for the band if We would like to invite them for our private party
+    - Check the band's social sites
+    - Navigate between the pages
+    - Check the website on every device easily
  
 ## Mockups
 
@@ -69,10 +77,8 @@ As a user I want to play and listen the video clip on the Media page.
 
 ## UX
  
-- This website prepared for the fans of the Band and also those people who would like to get familiar with the Band 
-music and schedule.
 - The Website is very colorful because these vivid colours connects to the band image. I use those kinds of colors that 
-are simple and dominant in the Band life and those years where they were young in the 70's. 
+are simple and dominant in the Band life and in those years when they were young in the 70's. 
 - I used the "font awesome" font and icon toolkit for the social link icons.
 - The two dominant font family is "Special Elite" and "ZCOOL KuaiLe" which are google fonts. I imported those fonts through 
 the .css style file from the google fonts repository.
@@ -80,7 +86,7 @@ the .css style file from the google fonts repository.
 
 ## Features 
 
-Because of the technology restriction(HTML and CSS) you only can navigate between the pages and 
+Because of the technology restriction(HTML and CSS) you can only navigate between the pages and 
 you can reach the outer social sites. The main feature for this project is the responsive design and implementation 
 furthermore the user centric development.
  
@@ -96,7 +102,10 @@ furthermore the user centric development.
     - Inactive "Buy ticket" button if the ticket are sold
 - Send Request
     - Required fields, restricted format when you fills and you want to send it
-- Hover effects on the buttons, on the social link and on the tour info rows 
+- Hover effects:
+    - On the buttons
+    - On the social links
+    - On the tour info rows 
 - Responsive:
     - Every page are responsive, usable and looks good on the below resolution:
         - Phones less than 768px
@@ -124,10 +133,10 @@ furthermore the user centric development.
 
 ## Testing
 
-Thanks to the GitHub Pages option everybody can reach my website through the below link: 
+Thanks to the "GitHub Pages" option everybody can reach my website through the below link: 
 https://istvangercsak.github.io/TheMonkees/
 
-I prefer the GitHub Pages option instead of the Cloud9 because it is up and available 24/7.
+I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 
 Chrome Developer Tool:
 - With the "Responsive" option I made boundary testing on the edges where the resolution changed from:
@@ -164,10 +173,10 @@ Test types:
 
 - **Set up**:
     - As my first step and as I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
-    with the local git. I use Pycharm for the front end development and there is a helpful built in deployment tools. 
+    with the local git. I use IntelliJ Pycharm for the front end development with its helpful built in deployment tools. 
     After I created a Git and GitHub repository, I could start to work.
 - **Commits**:
-    - After every small piece and increment I made commit to my local Git repository. After that on the end of the 
+    - After every small piece and increment, I made commit to my local Git repository. After that on the end of the 
     bigger section that gives value to my project I pushed my modification to my GitHub repository.
 
 ## Content

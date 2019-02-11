@@ -14,7 +14,7 @@ On the page we can find information about the band members about the tour(where,
 - Band page:
 ![Band page](Mockups/.png)
 - Media page:
-![Media page](Mockups/.png)
+![Media page](Mockups/media.png)
 - Contact page:
 ![Contact page](Mockups/.png)
 

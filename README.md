@@ -55,8 +55,8 @@ As a user I want to see the hover effect on the:
    - rows (on the Tour info page)
    - social links (on every page)
 
-As a user I want to see the "buzz" effect on the:    
-- "Buzz" effect on the menu items (on every page)
+As a user I want to see the "Buzz" effect on the:    
+- Menu items (on every page)
 
 ### Field checking
 

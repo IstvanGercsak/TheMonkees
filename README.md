@@ -16,7 +16,7 @@ On the page we can find information about the band members about the tour(where,
 - ###Media page:
 ![Media page](Mockups/media.png)
 - ###Contact page:
-![Contact page](Mockups/.png)
+![Contact page](Mockups/contact.png)
 
 ## User Stories
 

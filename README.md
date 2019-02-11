@@ -44,36 +44,37 @@ we have opportunity:
 
 ## User Stories
 
+“As a <role or persona>, I can <goal/need> so that <why>”
+
 ### Navigation:
 
-As a user, I want to reach every page from every page with the usage of the navigation bar.
+As a user, I want to use the navigation bar so that I can reach every site.
 
 ### Social links
 
-As a user, I want to reach the social sites from every page in a new tab. 
+As a user, I want click on the socal links so that it can be open in a new tab.
 
 ### Responsive
 
-As a user, I want to use the website on every device with every functionality
+As a user, I want to use the website with every resolution so that on different devices it will work with the same functionality.
 
 ### Effects:
 
-As a user I want to see the hover effect on the:
-   - buttons (on the Tour info page and Contact page)
-   - rows (on the Tour info page)
-   - social links (on every page)
+As a user I want to see the hover effect on the buttons so that I can see there is interaction wih that element.
+As a user I want to see the hover effect on the social link so that I can see there is interaction wih that element.
+As a user I want to see the hover effect on the rows on the tour info page so that I can see which row I selected.
 
-As a user I want to see the "Buzz" effect on the:    
-- Menu items (on every page)
+As a user I want to see the "Buzz" effect on the navigation row (on every page) so that I get feedback about the navigation option.
 
 ### Field checking
 
-As a user I want to fill my details on the Contact page and get notify If I miss one of them
+As a user I want to fill my details on the Contact page so that I can send the request. 
+As a user I want to get notified if I missed to fill a field so that I can finish to fill the form.
 
 ### Media
 
-As a user I want to play and listen the song on the Media page.
-As a user I want to play and listen the video clip on the Media page.
+As a user I want to listen the songs so that I can play and stop the songs.
+As a user I want to watch the video clip so that I can play and stop the video clip.
 
 ## UX
  

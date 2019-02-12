@@ -9,20 +9,20 @@ for the responsive design and implementation.
 
 - Throughout this project I had to create a website for a band called The Monkees. As the website is a static (front-end only) website
 we have opportunity:
+    - Check the website on every device easily
+    - Navigate between the pages
     - Get information about their tour:
         - Where will be the next concerts 
         - When will be the next concerts 
-        - How many ticket is available 
+        - How many ticket are available 
     - Find information about the band members
     - Listen some sample song and watch video clips from the band
     - Send request for the band if We would like to invite them for our private party
     - Check the band's social sites
-    - Navigate between the pages
-    - Check the website on every device easily
  
 ## Mockups
 
-**Created with Balsamiq Mockups 3**
+**Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
 
 - **Home page**:
 
@@ -46,50 +46,55 @@ we have opportunity:
 
 ## User Stories
 
-“As a <role or persona>, I can <goal/need> so that <why>”
-
 ### Navigation:
 
-As a user, I want to use the navigation bar so that I can reach every site.
+- As a user, I want to use the navigation bar so that I can reach every site.
 
-### Social links
+### Social links:
 
-As a user, I want click on the socal links so that it can be open in a new tab.
+- As a user, I want click on the social links so that it can be open in a new tab.
 
-### Responsive
+### Responsive:
 
-As a user, I want to use the website with every resolution so that on different devices it will work with the same functionality.
+- As a user, I want to use the website with every resolution so that on different devices it will work with the same functionality.
 
 ### Effects:
 
-As a user I want to see the hover effect on the buttons so that I can see there is interaction wih that element.
-As a user I want to see the hover effect on the social link so that I can see there is interaction wih that element.
-As a user I want to see the hover effect on the rows on the tour info page so that I can see which row I selected.
+- As a user I want to see the hover effect on the buttons so that I can see there is interaction wih that element.
+- As a user I want to see the hover effect on the social link so that I can see there is interaction wih that element.
+- As a user I want to see the hover effect on the rows on the tour info page so that I can see which row I selected.
 
-As a user I want to see the "Buzz" effect on the navigation row (on every page) so that I get feedback about the navigation option.
+- As a user I want to see the "Buzz" effect on the navigation row on every page so that I get feedback about the navigation option.
 
-### Field checking
+### Media:
 
-As a user I want to fill my details on the Contact page so that I can send the request. 
-As a user I want to get notified if I missed to fill a field so that I can finish to fill the form.
+- As a user I want to play and stop the songs so that I can listen the songs.
+- As a user I want to play and stop the video clip so that I can watch the video clip.
 
-### Media
+### Field checking:
 
-As a user I want to listen the songs so that I can play and stop the songs.
-As a user I want to watch the video clip so that I can play and stop the video clip.
+- As a user I want to fill my details on the Contact page so that I can send the request. 
+- As a user I want to get notified if I missed to fill a field so that I can finish to fill the form.
+- As a user I want to get notified if I filled a field in a wrong way so that I can finish to fill the form.
 
 ## UX
  
 - The Website is very colorful because these vivid colours connects to the band image. I use those kinds of colors that 
 are simple and dominant in the Band life and in those years when they were young in the 70's. 
-- I used the "font awesome" font and icon toolkit for the social link icons.
 - The two dominant font family is "Special Elite" and "ZCOOL KuaiLe" which are google fonts. I imported those fonts through 
 the .css style file from the google fonts repository.
+- I used the "font awesome" font and icon toolkit for the social link icons.
+- Hover effects on those elements where there is interaction
+    - Navigation
+    - Buttons
+        - Buy tickets
+        - Send request
+    - Social links
 - Favicon (Shortcut icon) with "M" sign on every page.
 
 ## Features 
 
-Because of the technology restriction(HTML and CSS) you can only navigate between the pages and 
+Because of the technology restriction(HTML5 and CSS3) you can only navigate between the pages and 
 you can reach the outer social sites. The main feature for this project is the responsive design and implementation 
 furthermore the user centric development.
  
@@ -104,8 +109,9 @@ furthermore the user centric development.
 - Buy tickets
     - Inactive "Buy ticket" button if the ticket are sold
 - Send Request
-    - Required fields, restricted format when you fills and you want to send it
+    - Required fields, restricted format when you fill the form and you want to send it
 - Hover effects:
+    - On the navigation elements
     - On the buttons
     - On the social links
     - On the tour info rows 
@@ -123,25 +129,42 @@ furthermore the user centric development.
 ## Used Technologies
 
 - [HTML5](https://www.w3.org/html/)
-    - Hypertext Markup Language is the standard markup language for creating web pages and web applications
+    - Hypertext Markup Language is the standard markup language for creating web pages and web applications.
 - [CSS3](https://www.w3.org/Style/CSS/)
     - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a 
-    markup language like HTML
+    markup language like HTML.
 - [BootStrap 3.3.7](https://getbootstrap.com/docs/3.3/)
-    - Front End Framework for developing responsive websites
+    - Front End Framework for developing responsive websites.
 - [Git](https://git-scm.com/)
-    - Git is a distributed version-control system for tracking changes in source code during software development
+    - Git is a distributed version-control system for tracking changes in source code during software development.
 - [GitHub](https://github.com/)
-    -  GitHub Inc. is a web-based hosting service for version control using Git
+    -  GitHub Inc. is a web-based hosting service for version control using Git.
 
 ## Testing
 
-Thanks to the "GitHub Pages" option everybody can reach my website through the below link: 
+Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website through the below link: 
 https://istvangercsak.github.io/TheMonkees/
 
 I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 
-Chrome Developer Tool:
+**Test types:**
+- Manual tests
+- Smoke tests on PC and Mobile
+- Non-Functional tests (usability, reliability)
+
+**Tested browsers:**
+ - Chrome
+ - Mozilla Firefox
+ - Microsoft Edge
+
+**Testing Tools:**
+ - Chrome browser built-in developer tool
+ - PC with HD resolution (with real usage)
+ - Mobile Phones: 
+    - Iphone SE
+    - OnePlus 6T
+
+**Chrome Developer Tool:**
 - With the "Responsive" option I made boundary testing on the edges where the resolution changed from:
     - Large desktop to desktop (Tested pixel width values: 1201px, 1200px, 1199px)
     - Desktop to tablet (Tested pixel width values: 993px, 992px, 991px)
@@ -149,28 +172,11 @@ Chrome Developer Tool:
 - Phone and Tablet resolution
     - Usage on the different device resolutions like "Pixel 2" and "iPad"
 - Console log error checking on every page during the testing
-
-Tested browsers:
- - Chrome
- - Mozilla Firefox
- - Microsoft Edge
  
-Testing Tools:
- - Chrome browser built-in developer tool
- - PC with HD resolution (with real usage)
- - Mobile Phones: 
-    - Iphone SE
-    - OnePlus 6T
-    
-Testing people:
+**Testing people:**
 - Acquaintance
 - Friends
 - Myself
-
-Test types:
-- Manual tests
-- Smoke tests on PC and Mobile
-- Non-Functional tests (usability, reliability)
 
 ## Deployment
 

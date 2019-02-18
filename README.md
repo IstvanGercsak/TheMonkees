@@ -30,19 +30,19 @@ we have opportunity:
 
 - **Tour Info page**:
 
-![Tour Info](Mockups/tourinfo.png)
+[Tour Info](Mockups/tourinfo.png)
 
 - **Band page**:
 
-![Band page](Mockups/band.png)
+[Band page](Mockups/band.png)
 
 - **Media page**:
 
-![Media page](Mockups/media.png)
+[Media page](Mockups/media.png)
 
 - **Contact page**:
 
-![Contact page](Mockups/contact.png)
+[Contact page](Mockups/contact.png)
 
 ## User Stories
 
@@ -151,6 +151,9 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 - Manual tests
 - Smoke tests on PC and Mobile
 - Non-Functional tests (usability, reliability)
+
+**Test cases:**
+- User stories
 
 **Tested browsers:**
  - Chrome

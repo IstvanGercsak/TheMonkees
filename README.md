@@ -187,8 +187,8 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 | Contact       | Contact       | Contact         |
 
 - Navigation ("Go back" and "Go forward" browser button)
-    - I am on the <on_page> page and I click on the <to_page> link. I click on the "go back" browser button and the <go_back_to_page> page will be loaded without any error. 
-    After this I click on the "go forward" browser button and the <go_to_page> page will be loaded without any error. 
+    - I am on the <on_page> page and I click on the <to_page> link. I click on the "go back" browser button and the <go_to_page> page will be loaded without any error. 
+    After this I click on the "go forward" browser button and the <to_page> page will be loaded without any error. 
 
 | **on_page**   | **to_page**   | **go_to_page**      |
 |:-------------:|:-------------:|:-------------------:|
@@ -202,11 +202,36 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 | Tour info     | Contact       | Tour info           |
 
 - Social link
-    - I click on the facebook social link and the band's facebook page will open in a new tab.
-    - I click on the twitter social link and the band's twitter page will open in a new tab.
-    - I click on the youtube chanel link and the band's youtube chanel will open in a new tab.
-    - I click on the spotify social link and the band's spotify page will open in a new tab.
+    - I click on the <social_link> social link and the band's <social_link> page will open in a new tab.
+    
+|social_link|
+|:---------:|
+|Facebook|
+|Twitter|
+|YouTube|
+|Spotify|
 
+- Responsive
+    - I grab the edge of the browser and modify the resulution. After this the website is still usanle and looks good.
+    - Chrome developer tools: details below at the **Chrome Developer Tool** section
+    
+- Effects
+    - I hover my mouse on the <navigation_link> navigation link, and the buzz effect appears
+    - I hover my mouse on the <social link> social link and I can see the transition effect
+    - I hover on the active <button> button and I see the button hover effect 
+    - I hover on the inactive "Buy ticket" button and I see the inactive hover effect
+    
+|navigation_link|social link|button|
+|:-------------:|:---------:|:----:|
+|Home|Facebook|Send Request|
+|Tour Info|Twitter|Buy ticket|
+|Band|Youtube||
+|Media|Twitter||
+|Contact||
+    
+- Media
+
+- Field checking
 
 **Tested browsers:**
  - Chrome

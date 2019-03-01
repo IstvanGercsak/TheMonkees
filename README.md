@@ -190,16 +190,28 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     - I am on the <on_page> page and I click on the <to_page> link. I click on the "go back" browser button and the <go_to_page> page will be loaded without any error. 
     After this I click on the "go forward" browser button and the <to_page> page will be loaded without any error. 
 
-| **on_page**   | **to_page**   | **go_to_page**      |
-|:-------------:|:-------------:|:-------------------:|
-| Home          | Tour Info     | Home                |
-| Home          | Band          | Home                |
-| Home          | Media         | Home                |
-| Home          | Contact       | Home                |
-| Tour info     | Home          | Tour info           |
-| Tour info     | Band          | Tour info           |
-| Tour info     | Media         | Tour info           |
-| Tour info     | Contact       | Tour info           |
+| **on_page**   | **to_page**   | **go_to_page** |
+|:-------------:|:-------------:|:--------------:|
+| Home          | Tour Info     | Home           |
+| Home          | Band          | Home           |
+| Home          | Media         | Home           |
+| Home          | Contact       | Home           |
+| Tour info     | Home          | Tour info      |
+| Tour info     | Band          | Tour info      |
+| Tour info     | Media         | Tour info      |
+| Tour info     | Contact       | Tour info      |
+| Band          | Home          | Band           |
+| Band          | Tour Info     | Band           |
+| Band          | Media         | Band           |
+| Band          | Contact       | Band           |
+| Media         | Home          | Media          |
+| Media         | Tour Info     | Media          |
+| Media         | Band          | Media          |
+| Media         | Contact       | Media          |
+| Contact       | Home          | Contact        |
+| Contact       | Tour Info     | Contact        |
+| Contact       | Band          | Contact        |
+| Contact       | Media         | Contact        |
 
 - Social link
     - I click on the <social_link> social link and the band's <social_link> page will open in a new tab.

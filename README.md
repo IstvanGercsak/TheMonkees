@@ -242,8 +242,13 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 |Contact||
     
 - Media
-
+    - I click on "play" button one of the music and it starts to play the music.
+    - While the music is running I clock on the stop button and the music is stops.
+    - I click on the video player and video starts to play.
+    - While the video is running I click on the stop button and the video is stops.
+    
 - Field checking
+    - TODO
 
 **Tested browsers:**
  - Chrome

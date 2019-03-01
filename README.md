@@ -243,12 +243,21 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     
 - Media
     - I click on "play" button one of the music and it starts to play the music.
-    - While the music is running I clock on the stop button and the music is stops.
-    - I click on the video player and video starts to play.
-    - While the video is running I click on the stop button and the video is stops.
+    - While the music is playing I clock on the stop button and the music is stops.
+    - I click on the video player and the video starts to play.
+    - While the video is playing I click on the stop button and the video is stops.
     
 - Field checking
-    - TODO
+    - I fill the required fields and after clicking the "Send request" button, I can send my message. (At the moment the sending function is not working. Instead of that the page will reloaded)
+    - I fill the e-mail field without e-mail format and I get feedback about the wrong format
+    - I miss the <field> field and I get a notification that I missed to fill that field
+
+|field       | 
+|:----------:|
+|Name        |
+|E-mail      |
+|Phone number|  
+|Details     |
 
 **Tested browsers:**
  - Chrome

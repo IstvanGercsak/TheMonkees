@@ -159,13 +159,13 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 
 | **on_page**   | **to_page**   | **loaded_page** |
 |:-------------:|:-------------:|:---------------:|
-| Home          | Home age      | Home            |
+| Home          | Home          | Home            |
 | Home          | Tour Info     | Tour Info       |
 | Home          | Band          | Band            |
 | Home          | Media         | Media           |
 | Home          | Contact       | Contact         |
 | Tour Info     | Tour Info     | Tour Info       |
-| Tour Info     | Home page     | Home page       |
+| Tour Info     | Home          | Home            |
 | Tour Info     | Band          | Band            |
 | Tour Info     | Media         | Media           |
 | Tour Info     | Contact       | Contact         |
@@ -174,21 +174,38 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 | Band          | Tour Info     | Tour Info       |
 | Band          | Media         | Media           |
 | Band          | Contact       | Contact         |
+| Media         | Media         | Media           |
+| Media         | Home          | Home            |
+| Media         | Band          | Band            |
+| Media         | Tour Info     | Tour Info       |
+| Media         | Contact       | Contact         |
+| Contact       | Contact       | Contact         |
+| Contact       | Home          | Home            |
+| Contact       | Band          | Band            |
+| Contact       | Tour Info     | Tour Info       |
+| Contact       | Media         | Media           |
+| Contact       | Contact       | Contact         |
 
 - Navigation ("Go back" and "Go forward" browser button)
-    - I am on the Home page and I click on the Tour Info site.
-     
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+    - I am on the <on_page> page and I click on the <to_page> link. I click on the "go back" browser button and the <go_back_to_page> page will be loaded without any error. 
+    After this I click on the "go forward" browser button and the <go_to_page> page will be loaded without any error. 
+
+| **on_page**   | **to_page**   | **go_to_page**      |
+|:-------------:|:-------------:|:-------------------:|
+| Home          | Tour Info     | Home                |
+| Home          | Band          | Home                |
+| Home          | Media         | Home                |
+| Home          | Contact       | Home                |
+| Tour info     | Home          | Tour info           |
+| Tour info     | Band          | Tour info           |
+| Tour info     | Media         | Tour info           |
+| Tour info     | Contact       | Tour info           |
 
 - Social link
-    - I click on the facebook social link and the facebook page of the band will open in a new tab.
-    - I click on the twitter social link and the twitter page of the band will open in a new tab.
-    - I click on the youtube chanel link and the youtube chanel of the band will open in a new tab.
-    - I click on the spotify social link and the spotify page of the band will open in a new tab.
+    - I click on the facebook social link and the band's facebook page will open in a new tab.
+    - I click on the twitter social link and the band's twitter page will open in a new tab.
+    - I click on the youtube chanel link and the band's youtube chanel will open in a new tab.
+    - I click on the spotify social link and the band's spotify page will open in a new tab.
 
 
 **Tested browsers:**

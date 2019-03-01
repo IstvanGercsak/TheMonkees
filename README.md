@@ -49,6 +49,7 @@ we have opportunity:
 ### Navigation:
 
 - As a user, I want to use the navigation bar so that I can reach every site.
+- As a user, I want to use the "go back" and "go forward" browser button without any error so that I can go back and forward between the pages more easily.
 
 ### Social links:
 
@@ -152,8 +153,43 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 - Smoke tests on PC and Mobile
 - Non-Functional tests (usability, reliability)
 
-**Test cases:**
-- User stories
+**Test cases for the user stories:**
+- Navigation (Navigation links)
+    - I am on the <on_page> page and I click on the <to_page> link. <loaded_page> page will be loaded.
+
+| **on_page**   | **to_page**   | **loaded_page** |
+|:-------------:|:-------------:|:---------------:|
+| Home          | Home age      | Home            |
+| Home          | Tour Info     | Tour Info       |
+| Home          | Band          | Band            |
+| Home          | Media         | Media           |
+| Home          | Contact       | Contact         |
+| Tour Info     | Tour Info     | Tour Info       |
+| Tour Info     | Home page     | Home page       |
+| Tour Info     | Band          | Band            |
+| Tour Info     | Media         | Media           |
+| Tour Info     | Contact       | Contact         |
+| Band          | Band          | Band            |
+| Band          | Home          | Home            |
+| Band          | Tour Info     | Tour Info       |
+| Band          | Media         | Media           |
+| Band          | Contact       | Contact         |
+
+- Navigation ("Go back" and "Go forward" browser button)
+    - I am on the Home page and I click on the Tour Info site.
+     
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+- Social link
+    - I click on the facebook social link and the facebook page of the band will open in a new tab.
+    - I click on the twitter social link and the twitter page of the band will open in a new tab.
+    - I click on the youtube chanel link and the youtube chanel of the band will open in a new tab.
+    - I click on the spotify social link and the spotify page of the band will open in a new tab.
+
 
 **Tested browsers:**
  - Chrome
@@ -207,5 +243,5 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     - [Official The Monkees Website](https://www.monkees.com/sites/default/files/favicon_1.ico)
 
 #### Media
-- The photos and video used in this site were obtained from the Code Institute repository: 
+- The photos, the music and video used in this site were obtained from the Code Institute repository: 
     - [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets)

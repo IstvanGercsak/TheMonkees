@@ -152,6 +152,10 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 - Manual tests
 - Smoke tests on PC and Mobile
 - Non-Functional tests (usability, reliability)
+    - Usability:
+        - The ease of use and learn to use the website
+    - Reliability:
+        - Stable and consistent result
 
 **Test cases for the user stories:**
 - Navigation (Navigation links)

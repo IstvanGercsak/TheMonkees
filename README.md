@@ -64,8 +64,8 @@ we have opportunity:
 - As a user I want to see the hover effect on the buttons so that I can see there is interaction wih that element.
 - As a user I want to see the hover effect on the social link so that I can see there is interaction wih that element.
 - As a user I want to see the hover effect on the rows on the tour info page so that I can see which row I selected.
-
 - As a user I want to see the "Buzz" effect on the navigation row on every page so that I get feedback about the navigation option.
+- As a user I want to see effect on the rows on the Tour Info page so that I can see which row am I at the moment.
 
 ### Media:
 
@@ -228,10 +228,11 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     - Chrome developer tools: details below at the **Chrome Developer Tool** section
     
 - Effects
-    - I hover my mouse on the <navigation_link> navigation link, and the buzz effect appears
-    - I hover my mouse on the <social link> social link and I can see the transition effect
-    - I hover on the active <button> button and I see the button hover effect 
-    - I hover on the inactive "Buy ticket" button and I see the inactive hover effect
+    - I hover my mouse over the <navigation_link> navigation link, and the buzz effect appears
+    - I hover my mouse over the <social link> social link and I can see the transition effect
+    - I hover over the active <button> button and I see the button hover effect 
+    - I hover over the inactive "Buy ticket" button and I see the inactive hover effect
+    - I hover my mouse over one of the row on the Tour Info page and I see which row am I choose and the hover effect on that row
     
 |navigation_link|social link|button|
 |:-------------:|:---------:|:----:|

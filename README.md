@@ -322,8 +322,8 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 - The photos, the music and video used in this site were obtained from the Code Institute repository: 
     - [Code Institute GitHub repo](https://github.com/Code-Institute-Org/project-assets) 
 
-#### Assesment
+### Assessment
 
-**Assesment (12/03/2019):**
+**Assessment (12/03/2019):**
 
-![Assesment](assets/images/Grade.JPG)
+![Assessment](assets/images/Grade.JPG)
